@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    font-family:  "Karla", sans-serif;
+    padding:0;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#quem{
+    color: #0cc0df;
+    font-family: arial;
+    padding-left:5px;
+}
+
+#queme{
+    margin-left: 3%;
+    display: flex;
+    font-weight: normal;
+    margin-top:5px;
+}
+
+nav{
+    margin-top:2%;
+    width: 95%;
+    margin-left: 2%;
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+nav img{
+	padding-left:8%;
+	padding-bottom:1%;
+}
+nav ul li{
+    list-style:none;
+    text-align:center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    cursor:pointer;
+}
+nav a:hover{
+    color: #0cc0df;
+}
+nav li{
+    display: inline-block;    
+    padding: 10px 30px 30px;
+}
+nav ul{
+    text-align: center;
+    padding-left: 500px;
+
+}
+
+footer{
+	display: flex;
+	margin-left: 20%;
+	padding-bottom: 5%;
+    padding-top:3% ;
+}
+
+#contato{
+	width:40%;
+	border-right: 2px solid gray;
+	margin-left:5%;
+}
+#logo_contato{
+	width:40%;
+	margin-right:5%;
+	padding-left: 10%;
+}
+
+footer img{
+	width: 40%;
+	padding-left: 5%;
+}
+
+#email i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 0px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px)
+}
+
+#email{
+	display:flex;
+	margin-bottom: 2%;
+}
+#tempo{
+	font-size:14px;
+	color: #a6a6a6;
+	padding-bottom:6%;
+}
+#redes{
+	display:flex;
+	margin-left: 10%;
+}
+
+#rede i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 15px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px);
+	margin-right: 10%;
+}
+#rede{
+	margin-right: 3%;
+
+}

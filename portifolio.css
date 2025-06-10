@@ -1,0 +1,454 @@
+*{
+    margin:0;
+    font-family:  "Karla", sans-serif;
+    padding:0;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#quem{
+    color: #0cc0df;
+    font-family: arial;
+    padding-left:5px;
+}
+
+#queme{
+    margin-left: 3%;
+    display: flex;
+    font-weight: normal;
+    margin-top:5px;
+}
+
+nav{
+    margin-top:2%;
+    width: 95%;
+    margin-left: 2%;
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+nav img{
+	padding-left:8%;
+	padding-bottom:1%;
+}
+nav ul li{
+    list-style:none;
+    text-align:center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    cursor:pointer;
+}
+nav a:hover{
+    color: #0cc0df;
+}
+nav li{
+    display: inline-block;    
+    padding: 10px 30px 30px;
+}
+nav ul{
+    text-align: center;
+    padding-left: 500px;
+
+}
+#sobre_mim{
+    margin-left:10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+main{
+    background-color: #f5f5f5;
+	display: flex;
+}
+
+#ola{
+    font-size: 20px;
+    color: #a2a2a2;
+}
+#nome{
+    font-size: 50px;
+}
+
+#sobre{
+    width:45%;
+    font-size: 20px;
+}
+#caracteristicas{
+	padding-left:3%;
+	padding-top:1%;
+}
+
+#foto img{
+	width:300%;
+	border-radius:20px;
+	transform: translateX(-350px) translateY(150px);
+}
+
+#botao{
+    background-color: #0cc0df;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+#titulo_instituicoes{
+	width: 100%;
+	background-color: #0cc0df;
+	text-align: center;
+	font-weight:bold;
+	font-size:18px;
+	color: white;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+#instituicoes{
+	display:flex;margin-left:10%;
+	margin-right:5%;
+}
+#instituicao{
+	width:30%;
+	background-color:#f5f5f5;
+	margin-left:1%;
+	border-radius:10px;
+	text-align:center;
+}
+
+#instituicao:hover{
+	background-color: #86d5ea;
+	color:white;
+	#tempo{
+		color:white;
+	}
+}
+
+#sesi{
+	width:55%;
+	padding-top:8%;
+}
+
+#senai{
+	padding-top:8%;
+	width:65%;
+}
+
+#prepara{
+	width:65%;
+}
+
+#curso{
+	font-weight:bold;
+	font-size:17px;
+}
+
+#tempo{
+	font-size:14px;
+	color: #a6a6a6;
+	padding-bottom:6%;
+}
+
+#habilidades{
+	background-color: #f5f5f5;
+	margin-top:5%;
+	text-align:center;
+	padding-bottom: 5%;
+	margin-bottom: 2%;
+}
+#titulo_habilidades{
+	font-size:20px;
+	padding-top:2%;
+}
+
+#cima{
+	display:flex;
+	margin-left:15%;
+	margin-top:4%;
+}
+#area_habilidade{
+	background-color:black;
+	color:white;
+	width: 15%;
+	border-radius:30px;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:bold;
+	margin-right:1%;
+}
+#area_habilidade:hover{
+	background-color:#0cc0df;
+	color:white;
+	
+}
+#area_habilidade_grande{
+	background-color:black;
+	color:white;
+	width: 18%;
+	border-radius:30px;
+	text-align:center;
+	padding-top:1%;
+	font-weight:bold;
+	padding-bottom:1%;
+	margin-right:1%;
+}
+#area_habilidade_grande:hover{
+	background-color:#0cc0df;
+	color:white;
+}
+#baixo{
+	display:flex;
+	margin-top:1%;
+	margin-left:18%;
+	#area_habilidade_grande{
+		width:18%;
+	}
+}
+
+footer{
+	display: flex;
+	margin-left: 20%;
+	padding-bottom: 5%;
+}
+
+#contato{
+	width:40%;
+	border-right: 2px solid gray;
+	margin-left:5%;
+}
+#logo_contato{
+	width:40%;
+	margin-right:5%;
+	padding-left: 10%;
+}
+
+footer img{
+	width: 40%;
+	padding-left: 5%;
+}
+
+#email i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 0px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px)
+}
+
+#email{
+	display:flex;
+	margin-bottom: 2%;
+}
+#redes{
+	display:flex;
+	margin-left: 10%;
+}
+
+#rede i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 15px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px);
+	margin-right: 10%;
+}
+#rede{
+	margin-right: 3%;
+
+}
+
+@media (max-width: 620px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0 10px;
+        overflow-x: hidden;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        border-bottom: 2px solid gray;
+    }
+
+    #queme {
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 5px;
+    }
+
+    nav img {
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0;
+        background-color: #f5f5f5;
+    }
+
+    #sobre_mim {
+        width: 100%;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    #nome {
+        font-size: 28px;
+    }
+
+    #sobre {
+        font-size: 16px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #foto img {
+        width: 90%;
+        max-width: 300px;
+        margin: 20px auto;
+        display: block;
+        transform: none;
+        border-radius: 12px;
+    }
+
+    #caracteristicas {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #caracteristicas li {
+        margin-bottom: 5px;
+    }
+
+    #botao {
+        width: 90%;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    #titulo_instituicoes {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #instituicoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    #instituicao {
+        width: 90%;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    #habilidades {
+        padding: 20px 10px;
+    }
+
+    #titulo_habilidades {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #cima, #baixo {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #area_habilidade,
+    #area_habilidade_grande {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    white-space: normal;
+    box-sizing: border-box;
+}
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    #contato,
+    #logo_contato {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        border: none;
+    }
+
+    #email {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #email i {
+        margin-bottom: 5px;
+    }
+
+    #redes {
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+    }
+
+    #rede {
+        margin: 0;
+    }
+
+    footer img {
+        width: 80px;
+        margin-top: 15px;
+    }
+}

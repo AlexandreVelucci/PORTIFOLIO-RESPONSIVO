@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    font-family:  "Karla", sans-serif;
+    padding:0;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#quem{
+    color: #0cc0df;
+    font-family: arial;
+    padding-left:5px;
+}
+
+#queme{
+    margin-left: 3%;
+    display: flex;
+    font-weight: normal;
+    margin-top:5px;
+}
+
+nav{
+    margin-top:2%;
+    width: 95%;
+    margin-left: 2%;
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+nav img{
+	padding-left:8%;
+	padding-bottom:1%;
+}
+nav ul li{
+    list-style:none;
+    text-align:center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    cursor:pointer;
+}
+nav a:hover{
+    color: #0cc0df;
+}
+nav li{
+    display: inline-block;    
+    padding: 10px 30px 30px;
+}
+nav ul{
+    text-align: center;
+    padding-left: 500px;
+
+}
+
+footer{
+	display: flex;
+	padding-left: 20%;
+	padding-bottom: 5%;
+    padding-top:3% ;
+}
+
+#contato{
+	width:40%;
+	border-right: 2px solid gray;
+	margin-left:5%;
+}
+#logo_contato{
+	width:40%;
+	margin-right:5%;
+	padding-left: 10%;
+}
+
+footer img{
+	width: 40%;
+	padding-left: 5%;
+}
+
+#email i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 0px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px)
+}
+
+#email{
+	display:flex;
+	margin-bottom: 2%;
+}
+#tempo{
+	font-size:14px;
+	color: #a6a6a6;
+	padding-bottom:6%;
+}
+#redes{
+	display:flex;
+	margin-left: 10%;
+}
+
+#rede i{
+	margin-right: 3%;
+	color:#0cc0df;
+	border-radius: 100%;
+	padding: 15px 15px 15px 15px;
+	background-color: #f5f5f5;
+	transform: translateY(-10px);
+	margin-right: 10%;
+}
+#rede{
+	margin-right: 3%;
+
+}
+
+@media screen and (max-width: 620px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #queme {
+        margin: 10px 0;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    nav ul {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    nav img {
+        padding: 10px 0;
+        width: 60px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 5%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contato, #logo_contato {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    #contato h1 {
+        font-size: 24px;
+    }
+
+    #tempo {
+        font-size: 14px;
+        padding-bottom: 4%;
+    }
+
+    #email {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #email i {
+        margin: 0 auto 5px;
+        transform: none;
+        padding: 10px;
+    }
+
+    #redes {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #rede i {
+        padding: 10px;
+        margin: 0 8px;
+        transform: none;
+    }
+
+    footer img {
+        width: 80px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+}
